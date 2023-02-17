@@ -1,0 +1,1183 @@
+{
+  "firstLayout": "",
+  "gdVersion": {
+    "build": 99,
+    "major": 4,
+    "minor": 0,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": true,
+    "folderProject": false,
+    "orientation": "landscape",
+    "packageName": "com.example.gamename",
+    "pixelsRounding": false,
+    "projectUuid": "5d1f043e-ef31-428a-a4f1-99d8ca1c3f58",
+    "scaleMode": "linear",
+    "sizeOnStartupMode": "adaptWidth",
+    "templateSlug": "",
+    "useExternalSourceFiles": false,
+    "version": "1.0.0",
+    "name": "turret2",
+    "description": "",
+    "author": "",
+    "windowWidth": 1280,
+    "windowHeight": 720,
+    "latestCompilationDirectory": "",
+    "maxFPS": 60,
+    "minFPS": 20,
+    "verticalSync": false,
+    "platformSpecificAssets": {},
+    "loadingScreen": {
+      "backgroundColor": 0,
+      "backgroundFadeInDuration": 0.2,
+      "backgroundImageResourceName": "",
+      "gdevelopLogoStyle": "light",
+      "logoAndProgressFadeInDuration": 0.2,
+      "logoAndProgressLogoFadeInDelay": 0.2,
+      "minDuration": 1.5,
+      "progressBarColor": 16777215,
+      "progressBarHeight": 20,
+      "progressBarMaxWidth": 200,
+      "progressBarMinWidth": 40,
+      "progressBarWidthPercent": 30,
+      "showGDevelopSplash": true,
+      "showProgressBar": true
+    },
+    "watermark": {
+      "placement": "bottom-left",
+      "showWatermark": true
+    },
+    "authorIds": [],
+    "authorUsernames": [],
+    "categories": [],
+    "playableDevices": [],
+    "extensionProperties": [],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"NewSprite.png\",\"extension\":\".png\"}",
+        "name": "NewSprite.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite2.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"NewSprite2.png\",\"extension\":\".png\"}",
+        "name": "NewSprite2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\NewSprite.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/emitte.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/emitte.png\",\"extension\":\".png\"}",
+        "name": "assets\\emitte.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\NewSprite3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite2.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/NewSprite2.png\",\"extension\":\".png\"}",
+        "name": "assets\\NewSprite2.png",
+        "smoothed": true,
+        "userAdded": false
+      }
+    ],
+    "resourceFolders": []
+  },
+  "objects": [],
+  "objectsGroups": [],
+  "variables": [],
+  "layouts": [
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Untitled_32scene",
+      "name": "Untitled scene",
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.7733980419227859,
+        "windowMask": false
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 180,
+          "customSize": true,
+          "height": 183,
+          "layer": "",
+          "name": "turret",
+          "persistentUuid": "98695c3a-0090-487f-93b2-b5e6fa720353",
+          "width": 183,
+          "x": 1080,
+          "y": 163,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "GroupID",
+              "type": "number",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 176,
+          "layer": "",
+          "name": "Enemy",
+          "persistentUuid": "dae109f7-399c-40a0-92ac-1ae71fd5124c",
+          "width": 171,
+          "x": 612,
+          "y": 383,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 183,
+          "layer": "",
+          "name": "turret",
+          "persistentUuid": "40b23b13-b02f-4816-9b43-9e53aeea0a8e",
+          "width": 183,
+          "x": 114,
+          "y": 260,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "GroupID",
+              "type": "number",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 183,
+          "layer": "",
+          "name": "turret",
+          "persistentUuid": "9ed7849d-3682-4319-a8d1-0adb4086d7b0",
+          "width": 183,
+          "x": 113,
+          "y": 389,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "GroupID",
+              "type": "number",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "angle": 180,
+          "customSize": true,
+          "height": 183,
+          "layer": "",
+          "name": "turret",
+          "persistentUuid": "9769d3d9-3013-46ae-a7cb-c87ecf38a699",
+          "width": 183,
+          "x": 1097,
+          "y": 601,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "GroupID",
+              "type": "number",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "NearestObject",
+          "persistentUuid": "c1ef88bf-3234-4b05-b8f3-24707f815483",
+          "width": 0,
+          "x": 149,
+          "y": 117,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "GroupID",
+              "type": "number",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "NearestObject",
+          "persistentUuid": "b7407786-6a31-4f9c-81ec-b5df59ab2c8e",
+          "width": 0,
+          "x": 1072,
+          "y": 57,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "GroupID",
+              "type": "number",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 183,
+          "layer": "",
+          "name": "turret",
+          "persistentUuid": "53c322ca-b2f2-41a0-b5df-2f57ad066724",
+          "width": 183,
+          "x": 112,
+          "y": 506,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "GroupID",
+              "type": "number",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "angle": 180,
+          "customSize": true,
+          "height": 183,
+          "layer": "",
+          "name": "turret",
+          "persistentUuid": "027a2315-d402-4f79-8759-94ddbaf77c9c",
+          "width": 183,
+          "x": 1080,
+          "y": 280,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "GroupID",
+              "type": "number",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "angle": 180,
+          "customSize": true,
+          "height": 183,
+          "layer": "",
+          "name": "turret",
+          "persistentUuid": "2264281c-5ed8-4a32-91a1-1d3f48a82a18",
+          "width": 183,
+          "x": 1090,
+          "y": 390,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "GroupID",
+              "type": "number",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "angle": 180,
+          "customSize": true,
+          "height": 183,
+          "layer": "",
+          "name": "turret",
+          "persistentUuid": "f0e841db-0ddb-463b-ab96-7d81004593f2",
+          "width": 183,
+          "x": 1095,
+          "y": 489,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "GroupID",
+              "type": "number",
+              "value": 2
+            }
+          ]
+        }
+      ],
+      "objects": [
+        {
+          "assetStoreId": "",
+          "name": "turret",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "folded": true,
+              "name": "Shot",
+              "type": "boolean",
+              "value": false
+            },
+            {
+              "folded": true,
+              "name": "GroupID",
+              "type": "number",
+              "value": 0
+            }
+          ],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite.png",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\NewSprite.png",
+                      "points": [
+                        {
+                          "name": "FireballSpawn",
+                          "x": 48.965365239294705,
+                          "y": 30.54974811083123
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 20.794080604534003,
+                        "y": 32.846977329974806
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 20.794080604534003,
+                        "y": 33.209697732997476
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9.066121101379395,
+                            "y": 32.00062942504883
+                          },
+                          {
+                            "x": 12.814231872558594,
+                            "y": 17.733627319335938
+                          },
+                          {
+                            "x": 24.179471969604492,
+                            "y": 16.40365219116211
+                          },
+                          {
+                            "x": 40.260074615478516,
+                            "y": 20.87720489501953
+                          },
+                          {
+                            "x": 54.64798355102539,
+                            "y": 28.37342643737793
+                          },
+                          {
+                            "x": 55.73614501953125,
+                            "y": 31.75881576538086
+                          },
+                          {
+                            "x": 54.04344940185547,
+                            "y": 36.23236846923828
+                          },
+                          {
+                            "x": 37.35831069946289,
+                            "y": 43.970401763916016
+                          },
+                          {
+                            "x": 22.97040367126465,
+                            "y": 47.47669982910156
+                          },
+                          {
+                            "x": 11.484256744384766,
+                            "y": 45.6630973815918
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "Fireball",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "DestroyOutside",
+              "type": "DestroyOutsideBehavior::DestroyOutside",
+              "extraBorder": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "NewSprite2.png",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\NewSprite2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 8.94521410579345,
+                        "y": 31.637909319899244
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 8.340680100755668,
+                        "y": 32.000629722921914
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3.0207808017730713,
+                            "y": 28.494333267211914
+                          },
+                          {
+                            "x": 29.74118423461914,
+                            "y": 13.985516548156738
+                          },
+                          {
+                            "x": 47.998111724853516,
+                            "y": 12.65554141998291
+                          },
+                          {
+                            "x": 59.2424430847168,
+                            "y": 24.383501052856445
+                          },
+                          {
+                            "x": 59.9678840637207,
+                            "y": 39.375946044921875
+                          },
+                          {
+                            "x": 47.393577575683594,
+                            "y": 51.58753204345703
+                          },
+                          {
+                            "x": 26.597606658935547,
+                            "y": 49.5321159362793
+                          },
+                          {
+                            "x": 3.3835012912750244,
+                            "y": 35.38602066040039
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "Enemy",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Draggable",
+              "type": "DraggableBehavior::Draggable",
+              "checkCollisionMask": true
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\NewSprite3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 32.15931989924433,
+                        "y": 32.24244332493703
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1.9326196908950806,
+                            "y": 48.32304763793945
+                          },
+                          {
+                            "x": 0,
+                            "y": 31.75881576538086
+                          },
+                          {
+                            "x": 0.9653652310371399,
+                            "y": 20.393577575683594
+                          },
+                          {
+                            "x": 8.09886646270752,
+                            "y": 9.632871627807617
+                          },
+                          {
+                            "x": 18.255037307739258,
+                            "y": 3.22481107711792
+                          },
+                          {
+                            "x": 30.58753204345703,
+                            "y": 0.6857682466506958
+                          },
+                          {
+                            "x": 41.590049743652344,
+                            "y": 2.4993703365325928
+                          },
+                          {
+                            "x": 52.592567443847656,
+                            "y": 6.489294528961182
+                          },
+                          {
+                            "x": 60.814231872558594,
+                            "y": 17.975440979003906
+                          },
+                          {
+                            "x": 63.595088958740234,
+                            "y": 32.60516357421875
+                          },
+                          {
+                            "x": 61.29785919189453,
+                            "y": 46.02581787109375
+                          },
+                          {
+                            "x": 53.8016357421875,
+                            "y": 56.06108474731445
+                          },
+                          {
+                            "x": 42.92002487182617,
+                            "y": 62.590049743652344
+                          },
+                          {
+                            "x": 30.708438873291016,
+                            "y": 63.436397552490234
+                          },
+                          {
+                            "x": 20.068639755249023,
+                            "y": 62.348236083984375
+                          },
+                          {
+                            "x": 10.275188446044922,
+                            "y": 56.06108474731445
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "NearestObject",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "folded": true,
+              "name": "GroupID",
+              "type": "number",
+              "value": 0
+            }
+          ],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\emitte.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 34.21473551637279,
+                        "y": 32.363350125944585
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 33.97292191435768,
+                        "y": 32.363350125944585
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"FireDelay1\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"FireDelay2\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "FireDelay[1]",
+                "=",
+                ".25"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "FireDelay[2]",
+                "=",
+                ".5"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "RotateTowardPosition"
+              },
+              "parameters": [
+                "turret",
+                "Enemy.CenterX()",
+                "Enemy.CenterY()",
+                "0",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "GroupID",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Repeat",
+              "repeatExpression": "2",
+              "conditions": [],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CompareTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"FireDelay\" + ToString(Variable(GroupID))",
+                        ">",
+                        "Variable(FireDelay[Variable(GroupID)])"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ResetTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"FireDelay\" + ToString(Variable(GroupID))"
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarObjet"
+                          },
+                          "parameters": [
+                            "turret",
+                            "GroupID",
+                            "=",
+                            "Variable(GroupID)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Not"
+                          },
+                          "parameters": [],
+                          "subInstructions": [
+                            {
+                              "type": {
+                                "value": "ObjectVariableAsBoolean"
+                              },
+                              "parameters": [
+                                "turret",
+                                "Shot",
+                                "False"
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "AjoutObjConcern"
+                              },
+                              "parameters": [
+                                "",
+                                "turret"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "VarObjet"
+                              },
+                              "parameters": [
+                                "turret",
+                                "GroupID",
+                                "=",
+                                "Variable(GroupID)"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetObjectVariableAsBoolean"
+                              },
+                              "parameters": [
+                                "turret",
+                                "Shot",
+                                "False"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "AjoutObjConcern"
+                          },
+                          "parameters": [
+                            "",
+                            "turret"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "VarObjet"
+                          },
+                          "parameters": [
+                            "turret",
+                            "GroupID",
+                            "=",
+                            "Variable(GroupID)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "turret",
+                            "Shot",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "VarObjet"
+                          },
+                          "parameters": [
+                            "NearestObject",
+                            "GroupID",
+                            "=",
+                            "Variable(GroupID)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PickNearest"
+                          },
+                          "parameters": [
+                            "turret",
+                            "NearestObject.CenterX()",
+                            "NearestObject.CenterY()",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "turret",
+                            "Shot",
+                            "True"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "Fireball",
+                            "turret.PointX(\"FireballSpawn\")",
+                            "turret.PointY(\"FireballSpawn\")",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetAngle"
+                          },
+                          "parameters": [
+                            "Fireball",
+                            "=",
+                            "turret.Angle()"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "AddForceVers"
+                          },
+                          "parameters": [
+                            "Fireball",
+                            "Enemy",
+                            "500",
+                            "1"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "GroupID",
+                        "+",
+                        "1"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "turret",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "turret",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Fireball",
+                "Enemy",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Fireball",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 0,
+          "ambientLightColorG": 8042920,
+          "ambientLightColorR": 16,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": []
+    }
+  ],
+  "externalEvents": [],
+  "eventsFunctionsExtensions": [],
+  "externalLayouts": [],
+  "externalSourceFiles": []
+}
